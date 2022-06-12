@@ -1,5 +1,5 @@
 { config, pkgs, ... }: {
-  system.stateVersion = "22.05";
+  system.stateVersion = "21.11";
 
   # minimal config required for the rebuild to work
   fileSystems."/" = {
